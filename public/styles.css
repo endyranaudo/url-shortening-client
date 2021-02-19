@@ -1,0 +1,41 @@
+body {
+  color: #2e2e2e;
+  font-family: arial;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+span {
+  color: #5c5b5b;
+}
+
+div {
+  padding-top: 2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+input {
+  border: 1px solid #cccccc;
+  padding: 0.5rem 1rem;
+}
+
+button {
+  cursor: pointer;
+  border: 1px solid #00AEAE;
+  border-radius: 0.5rem;
+  background: #00AEAE;
+  color: white;
+  padding: 0.5rem 1rem;
+}
